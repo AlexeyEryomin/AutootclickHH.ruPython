@@ -67,7 +67,7 @@ new_all_ids_3 = [x[0] for x in all_ids_3]
 #print(all_ids)
 #print(new_all_ids_3)
 
-import time
+
 time.sleep(30)
 
 
@@ -84,7 +84,7 @@ new_all_ids_4 = [x[0] for x in all_ids_4]
 #print(new_all_ids_4)
 
 
-import time
+
 time.sleep(30)
 
 
@@ -100,7 +100,7 @@ new_all_ids_5 = [x[0] for x in all_ids_5]
 #print(all_ids)
 #print(new_all_ids_5)
 
-import time
+
 time.sleep(30)
 
 
@@ -116,7 +116,7 @@ new_all_ids_6 = [x[0] for x in all_ids_6]
 #print(all_ids)
 #print(new_all_ids_6)
 
-import time
+
 time.sleep(30)
 
 
@@ -132,7 +132,7 @@ new_all_ids_7 = [x[0] for x in all_ids_7]
 #print(all_ids)
 #print(new_all_ids_7)
 
-import time
+
 time.sleep(30)
 
 
@@ -148,7 +148,7 @@ new_all_ids_8 = [x[0] for x in all_ids_8]
 #print(all_ids)
 #print(new_all_ids_8)
 
-import time
+
 time.sleep(30)
 
 
@@ -164,7 +164,7 @@ new_all_ids_9 = [x[0] for x in all_ids_9]
 #print(all_ids)
 #print(new_all_ids_9)
 
-import time
+
 time.sleep(30)
 
 
@@ -180,7 +180,7 @@ new_all_ids_10 = [x[0] for x in all_ids_10]
 #print(all_ids)
 #print(new_all_ids_10)
 
-import time
+
 time.sleep(30)
 
 
@@ -196,7 +196,7 @@ new_all_ids_11 = [x[0] for x in all_ids_11]
 #print(all_ids)
 #print(new_all_ids_11)
 
-import time
+
 time.sleep(30)
 
 
@@ -212,7 +212,7 @@ new_all_ids_12 = [x[0] for x in all_ids_12]
 #print(all_ids)
 #print(new_all_ids_12)
 
-import time
+
 time.sleep(30)
 
 
@@ -228,7 +228,7 @@ new_all_ids_13 = [x[0] for x in all_ids_13]
 #print(all_ids)
 #print(new_all_ids_13)
 
-import time
+
 time.sleep(30)
 
 
@@ -244,7 +244,7 @@ new_all_ids_14 = [x[0] for x in all_ids_14]
 #print(all_ids)
 #print(new_all_ids_14)
 
-import time
+
 time.sleep(30)
 
 
@@ -260,7 +260,7 @@ new_all_ids_15 = [x[0] for x in all_ids_15]
 #print(all_ids)
 #print(new_all_ids_15)
 
-import time
+
 time.sleep(30)
 
 
@@ -276,7 +276,7 @@ new_all_ids_16 = [x[0] for x in all_ids_16]
 #print(all_ids)
 #print(new_all_ids_16)
 
-import time
+
 time.sleep(30)
 
 
@@ -302,12 +302,12 @@ def send_resume(zeta):
 
   payload = {'vacancy_id': {zeta},
   'resume_id': 'f5c1c9bdff0b0e2c9a0039ed1f37746c534869',
-  'message': 'Привет, меня зовут Ерёмин Алексей и я начинающий тестировщик! \n Прошу рассмотреть мое резюме на должность QA инженер / Тестировщик \n Ищу работу с возможностью работать удаленно, так как скорее всего нахожусь далеко от вашего места расположения офиса. \n\n Небольшая предыстория! \n Когда я начал искать работу, я подготавливал сопроводительное письмо индивидуально для каждой кампании, хотел подчеркнуть свои сильные стороны, которые подходили под описание требований, так же хотел сказать как мне важно будет работать в вашей кампании, как буду полезен и что ни в коем случае не подведу. Но мои ожидания разбились о скалы реальности - слово ,начинающий, для работодателя — это первостепенный триггер для того чтобы отказать мне сразу и даже без возможности показать свой навык - выполнить тестовое задание или пройти собеседование. В результате чего мною было принято решение написать программку для автоматической отсылки резюме используя Python Request и Head Hunter API. Этот отклик и это письмо является результатом работы моей программы. Может это письмо и не выражает особое обращение к вашей кампании, но тем не менее для меня будет особенной та кампания, которая предложит мне оффер. Если вы не готовы дать возможность показать себя начинающему тестировщику, то просто нажмите отказ для этого отклика. \n Немного о себе! \n Мое самое большое увлечение это компьютер, различные гаджеты и программы. К сожалению, на сегодняшний день моя работа никак не связана с компьютерами, телефонами, программами или другими интересными вещами из сферы технологий. И я прилагаю все возможные усилия чтобы это изменить. \n Что я делаю для этого. \n - Увлекаюсь созданием простых программ на языке Python(смотрю различные ролики на ютубе, читаю статьи и пытаюсь использовать это для себя, например создал эту программку для автоотклика на вакансии. \n - Прохожу обучение в SkyPro по направлению тестирование и здесь я изучил \n    1) Основы тестирования (техники тест дизайна, виды тестирования, как вести документацию и многое многое другое) \n    2) Подробно разобрали как работать с REST в инструменте Postman, изучили как отправлять запросы в терминале используя CURL \n    3) Изучили тестирование SOAP сервисов в SOAPUI \n    4) Изучили запросы SQL на примере PostgreSQL и его графической утилиты PgAdmin (предпочитаю работать с запросами SQL из терминала Linux мне кажется так даже быстрее получается чем в PgAdmin) \n    5) Поработали немного в JMeter, создали нагрузочный тест для работы из терминала \n\nЕсли вы готовы рассмотреть меня, то буду очень рад стать частью вашей профессиональной команды! \n Готов обсудить с вами свои навыки и знания подробнее. \n Напишите мне на электронную почту ShiraiRyuFireGarden@yandex.ru \n Или можете связаться по телефону +79994762172 или в WhatsApp \n Так же отвечу вам в телеграм @alexeyfighter'}
+  'message': 'Сообщение'}
   files=[
 
   ]
   headers = {
-  'Authorization': 'Bearer NI20FC4GHT3MB8A95EBQN02DE2HRJDOL7P3HQAV8INQF01L4NHV00UV01IMI68EE',
+  'Authorization': 'Bearer TOKEN',
   'Cookie': '__ddg1_=AtUknwq2C4H1hxF8dV97; hhuid=Mv5vtxCZeT4afmLelk02mw--; redirect_host=barnaul.hh.ru; region_clarified=NOT_SET'
   }
 
